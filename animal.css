@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom:2px solid gray;
+
+}
+.small1{
+    background: url(istockphoto-1218694103-170667a.jpg) no-repeat scroll center / cover;
+    width: 100px;
+    height: 80px;
+    
+    
+}
+.small2 ul{
+    display: flex;
+
+}
+.small2 li{
+    list-style: none;
+    padding: 10px;
+
+}
+.small2 li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.small3{
+    display: flex;
+}
+.small3 li{
+    list-style: none;
+    padding: 10px;
+}
+.small3 li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    background: url(istockphoto-1218694103-170667a.jpg) no-repeat scroll center / cover;
+    width: 600px;
+    height: 500px;
+}
+.para{
+    width:600px;
+    font-family: Playfair Display;
+
+}
+.para1{
+    font-size: 24px;
+    padding: 10px;
+}
+.para2{
+    font-size: 30px;
+}
+span{
+    color: red;
+}
+.nagaur ul{
+    display: flex;
+    justify-content: center;
+}
+.nagaur li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    background-color: gray;
+}
+.nagaur li a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.nagaur li:hover{
+    background-color: white;
+    color: white;
+}
+.cover{
+    display: flex;
+    height: 500px;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+.page{
+    width:500px;
+    
+}
+.page1{
+    font-size:30px;
+    color:red;
+}
+.page2{
+        font-size:20px;
+}
+.page p{
+    padding: 10px;
+}
+
+.foot{
+    background-color: yellow;
+text-align: center;
+    height: 200px;
+}
+.foot1{
+    color:red;
+    padding: 30px;
+}
+.foot1 a{
+    color:gray;
+}
+
+.foot2 ul{
+display: flex;
+justify-content: center;
+}
+.foot2 li{
+    padding: 10px;
+    list-style: none;
+    size: 20px;
+}
